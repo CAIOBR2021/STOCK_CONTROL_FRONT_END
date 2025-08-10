@@ -201,15 +201,13 @@ export default function App() {
 
   return (
     <div className="container py-4">
-      <header className="d-flex justify-content-between align-items-center mb-5">
-        <div className="d-flex align-items-center gap-5">
+      <header className="d-flex justify-content-between align-items-center mb-5 P-3 border-bottom">
           <img
             src={meuLogo}
             alt="Logo da Empresa"
-            style={{ height: '80px' }} // Ajuste a altura conforme necessário
+            style={{ height: '60px' }} // Ajuste a altura conforme necessário
           />
-          <h2 className="px-5 fs-4 fw-bold">Sistema de Controle de Estoque</h2>
-        </div>
+          <h2 className="fs-5 mb-0 text-muted">Sistema de Controle de Estoque</h2>
       </header>
 
       <div className="row mb-3">
